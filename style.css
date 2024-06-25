@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent{
+    display: flex;
+}
+.imgg{
+    width: 300px;
+}
+.btn{
+    width: 216px;
+    height: 40px;
+    border: none;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+
+}
+
+.btn3{
+    background-color: #ffe5e2;
+
+
+}
+.btn:hover{
+    background-color: #dd7c0c;
+    /* color: aliceblue; */
+}
+.tabs_content{
+    background-color:  #ffe5e2;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.tabs{
+
+    background-color:  #ffe5e2;
+    
+}
+.container{
+    background-color:  #000;
+    justify-content: center;
+    text-align: center;
+    /* border-radius: 20px 0px 0px 0px; */
+}
+.step1,.step2{
+    display: none;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+    /* width: 80%; */
+    margin-left:15% ;
+    margin-right: 15%;
+    margin-top: 6%;
+
+}
+
